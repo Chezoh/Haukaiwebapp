@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--allows for a responsive design-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/css.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9MEXY3DJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B9MEXY3DJQ');
+</script>
+
+<title>Haukai Restaurant homepage</title>
+</head>
+<body>
+  <div class='container-fluid'>
+    <header class="header">  <!--insert logo and representative image-->
+        <img src="images/Haukai Restaurant Logo.png" alt="Haukai restaurant logo" height="200" width="200">
+        <img src="images/stylisedfish.png" alt="stylised fish image" height="100" width="150" >
+        
+    </header>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed"> <!--collapsible navigation bar with toggle-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon mx-auto"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+              <a class="nav-home" href="index.html">Home</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-about" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-menu" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-reservations" href="reservations.html">Reservations</a>
+            </li>            
+          <li class="nav-item">
+              <a class="nav-contact" href="contact.html">Contact</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav> 
+</div>
+      
+ <main> <!--main page content style ="margin-top: 30px"-->
+  <div class = "container pt-4" >   
+  <div class="row">
+    <div class = "col">
+      <!--insert an image carousel-->
+  <div id="mainimages" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#mainimages" data-slide-to="0" class="active"></li>
+      <li data-target="#mainimages" data-slide-to="1"></li>
+      <li data-target="#mainimages" data-slide-to="2"></li>
+      <li data-target="#mainimages" data-slide-to="3"></li>
+      </ul>
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/kaiseafood.jpg" alt="Plate of seafood" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/hangiplate.jpg" alt="Plate of hangi food" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/dining.jpg" alt="Restaurant meal setting" >
+      </div>
+      <div class="carousel-item">
+        <img src="images/restaurant.jpg" alt="Restaurant outdoor setting" >
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#mainimages" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#mainimages" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div><br>
+  </div>
+  <div class = "col" style="text-align: center">
+    <div id= "welcome">
+      <!-- Welcome message-->
+      <h2>"Welcome to Haukai Restaurant"</h2>
+    <p>Nestled in the beautiul Bay of Islands, Haukai restaurant is an experiential restaurant offering the best in Māori kai and culture.</p>
+      <!-- our translation in Maori-->
+    <h2>"Nau mai ki te wharekai Haukai"</h2>
+    <p>Kei te whare ataahua o Pēwhairangi, te wharekai Haukai he wharekai wheako ka whakarato i nga mea papai o te kai me te ahurea Māori.</p>
+    <br>
+    </div>
+  </div>
+</div>
+</div>
+</main>
+<div class = "footer">
+      ©Copyright 2021 Haukai Restaurant, Bay of Islands, New Zealand | <a class = "privacyStatemenet" href= "privacystatement.html">Privacy statement </a> | <a class = "stafflogin" href = "private/staffonly.html">Staff login</a>
+      </div>
+</body> 
+</html>
